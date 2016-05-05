@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../navbar/navbar.jsx';
 
 export default class Layout extends React.Component {
     // constructor(props) {
@@ -10,7 +11,7 @@ export default class Layout extends React.Component {
         	<div className="wrapper">
         		<div className="box">
         			<div classname="srow row-offcanvas row-offcanvas-left push-down-50">
-	        			Navbar
+	        			<Navbar />
 	        			{this.props.sidebar}
 	        			{this.props.content}
         			</div>
